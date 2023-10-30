@@ -55,7 +55,7 @@ $(function() {
             if (hash == "#services") {
                 openPopup(hash);
             }
-            if (hash == "#works") {
+            if (hash == "#dance") {
                 openPopup(hash);
             }
             if (hash == "#news") {
@@ -75,7 +75,7 @@ $(function() {
             if (hash == "#services") {
                 openAndClose(hash);
             }
-            if (hash == "#works") {
+            if (hash == "#dance") {
                 openAndClose(hash);
             }
             if (hash == "#news") {
@@ -166,8 +166,8 @@ $(function() {
             }
         }
     });
-    // 4.3. owl works carousel
-    $("#works-carousel").owlCarousel({
+    // 4.3. owl dance carousel
+    $("#dance-carousel").owlCarousel({
         loop: false,
         center: false,
         items: 1,
