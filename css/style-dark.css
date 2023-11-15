@@ -583,7 +583,7 @@ strong {
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
-  @media only screen and (max-width: 995px) {
+  @media only screen and (max-width: 1080px) {
     display: none;
   }
 }
@@ -596,9 +596,8 @@ strong {
 }
 
 .main-title {
-
   font-family: "Oswald", sans-serif;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 30px;
   text-align: center;
   font-size: 25px;
@@ -686,6 +685,8 @@ strong {
 
 /* 6.1. link underline menu */
 .link-underline-menu {
+  font-family: "Oswald", sans-serif;
+  margin: 5px;
   position: relative;
   text-decoration: none;
   cursor: pointer;
@@ -3367,7 +3368,7 @@ img.mfp-img {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1080px) {
   .mobile-visible {
     display: block;
     visibility: visible;
@@ -3379,7 +3380,7 @@ img.mfp-img {
   visibility: visible;
 }
 
-@media only screen and (max-width: 995px) {
+@media only screen and (max-width: 1080px) {
   .desktop-visible {
     display: none;
     visibility: hidden;
