@@ -583,15 +583,8 @@ strong {
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
-  @media only screen and (max-width: 765px) {
+  @media only screen and (max-width: 1100px) {
     display: none;
-  }
-}
-
-@media only screen and (max-width: 1080px) {
-  .logo {
-    padding-top: 14px;
-    padding-left: 15px;
   }
 }
 
