@@ -94,20 +94,18 @@
 
 .post-box-photo-works-3 { /* або contain, в залежності від вашого вибору */
   background-position: center 10% !important;
+  padding: auto;
   background-image: url(../img/dance/photo_2023-11-12_11-57-20.jpg);
 }
 
-.post-box-photo-works-4 {
-  background-position: center 15% !important;
-  background-image: url(../img/dance/photo_2023-11-12_11-57-22.jpg);
+.post-box-photo-tutor-1 {
+  background-position: center 20% !important;
+  background-image: url(../img/tutor/photo_2023-11-12_17-37-58.jpg);
 }
 
-.post-box-photo-works-5 {
-  background-image: url(../img/dance/dance-5.jpg);
-}
-
-.post-box-photo-works-6 {
-  background-image: url(../img/dance/dance-6.jpg);
+.post-box-photo-tutor-2 {
+  background-position: center 20% !important;
+  background-image: url(../img/tutor/photo_2023-10-31_03-15-29.jpg);
 }
 
 /* 1.4. news IMG BACKGROUND */
