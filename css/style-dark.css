@@ -583,7 +583,7 @@ strong {
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
-  @media only screen and (max-width: 1080px) {
+  @media only screen and (max-width: 765px) {
     display: none;
   }
 }
