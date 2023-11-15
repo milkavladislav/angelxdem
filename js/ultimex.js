@@ -52,7 +52,7 @@ $(function() {
             if (hash == "#about") {
                 openPopup(hash);
             }
-            if (hash == "#services") {
+            if (hash == "#tutor") {
                 openPopup(hash);
             }
             if (hash == "#dance") {
@@ -72,7 +72,7 @@ $(function() {
             if (hash == "#about") {
                 openAndClose(hash);
             }
-            if (hash == "#services") {
+            if (hash == "#tutor") {
                 openAndClose(hash);
             }
             if (hash == "#dance") {
@@ -139,7 +139,7 @@ $(function() {
         }
     });
     // 4.2. owl services carousel
-    $("#services-carousel").owlCarousel({
+    $("#tutor-carousel").owlCarousel({
         loop: true,
         center: false,
         items: 1,

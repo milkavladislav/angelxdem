@@ -84,19 +84,22 @@
 
 /* 1.3. works IMG BACKGROUND */
 .post-box-photo-works-1 {
-  background-image: url(../img/dance/dance-1.jpg);
+  background-image: url(../img/dance/photo_2023-11-12_11-57-21.jpg);
 }
 
 .post-box-photo-works-2 {
-  background-image: url(../img/dance/dance-2.jpg);
+  background-position: center 0% !important;
+  background-image: url(../img/dance/photo_2023-11-12_11-57-23.jpg);
 }
 
-.post-box-photo-works-3 {
-  background-image: url(../img/dance/dance-3.jpg);
+.post-box-photo-works-3 { /* або contain, в залежності від вашого вибору */
+  background-position: center 10% !important;
+  background-image: url(../img/dance/photo_2023-11-12_11-57-20.jpg);
 }
 
 .post-box-photo-works-4 {
-  background-image: url(../img/dance/dance-4.jpg);
+  background-position: center 15% !important;
+  background-image: url(../img/dance/photo_2023-11-12_11-57-22.jpg);
 }
 
 .post-box-photo-works-5 {
@@ -567,13 +570,18 @@ strong {
 }
 
 .logo {
-  padding-top: 24px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 40px;
   padding-left: 18px;
+  font-size: 30px;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -ms-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
+  @media only screen and (max-width: 995px) {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -581,6 +589,15 @@ strong {
     padding-top: 14px;
     padding-left: 15px;
   }
+}
+
+.main-title {
+
+  font-family: "Oswald", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .main-navigation .navbar-nav li a {
@@ -715,10 +732,13 @@ strong {
   margin: 0 auto;
   background: none;
   z-index: 2;
+  @media only screen and (max-width: 768px) {
+    height: auto;
+  }
 }
 
 #about-lifting,
-#services-lifting,
+#tutor-lifting,
 #dance-lifting,
 #news-lifting,
 #contact-lifting {
@@ -739,7 +759,7 @@ strong {
 
 @media only screen and (max-width: 995px) {
   #about-lifting,
-  #services-lifting,
+  #tutor-lifting,
   #dance-lifting,
   #news-lifting,
   #contact-lifting {
@@ -896,7 +916,7 @@ h1.post-title.post-title-all-main-title {
 
 .post-block-correction {
   margin: 0;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 
 @media only screen and (max-width: 995px) {
