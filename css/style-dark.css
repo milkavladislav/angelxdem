@@ -1247,6 +1247,7 @@ h1.post-title.post-title-all-main-title {
 .button-the {
   position: relative;
   display: inline-block;
+  font-size: 25px !important;
   text-transform: uppercase;
   text-align: left;
   color: #ff264a;
