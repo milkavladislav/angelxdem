@@ -119,6 +119,11 @@
   background-image: url(../img/tutor/Telegram_xbbxs2Xb8i.png);
 }
 
+.post-box-photo-tutor-4 {
+  background-position: center 20% !important;
+  background-image: url(../img/tutor/photo_2023-11-12_17-37-58.jpg);
+}
+
 /* 1.4. news IMG BACKGROUND */
 .post-box-photo-news-1 {
   background-image: url(../img/news/news-1.jpg);
